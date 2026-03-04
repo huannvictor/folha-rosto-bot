@@ -1,4 +1,4 @@
-# Folha de Rosto Bot 🤖
+# EducForm-Bot 🤖
 
 Bot para extração de dados de fichas de escolas e geração automática de Folhas de Rosto em PDF.
 
@@ -27,7 +27,7 @@ Nesse cenário, a solução paliativa era o preenchimento de formulários em bra
 
 ## ✅ Solução
 
-O **Folha de Rosto Bot** automatiza a parte mais braçal e suscetível a erros desse processo. Ele extrai dados brutos de relatórios do sistema e os "injeta" cirurgicamente no template oficial em PDF.
+O **EducForm-Bot** automatiza a parte mais braçal e suscetível a erros desse processo. Ele extrai dados brutos de relatórios do sistema e os "injeta" cirurgicamente no template oficial em PDF.
 
 *   **Otimização:** O bot popula automaticamente todos os dados fixos (ID, CNPJ, Razão Social, Localização, Contato).
 *   **Foco no que importa:** O divulgador em campo agora recebe uma folha pré-preenchida, precisando atualizar apenas o que é estritamente novo ou variável (alunado, mensalidade).
@@ -37,7 +37,7 @@ O **Folha de Rosto Bot** automatiza a parte mais braçal e suscetível a erros d
 ## Estrutura de Pastas
 
 ```text
-folha-rosto-bot/
+educform-bot/
 ├── data/
 │   ├── input/              # PDFs originais (fichas)
 │   ├── output/             # Resultados gerados

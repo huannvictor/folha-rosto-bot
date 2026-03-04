@@ -12,7 +12,7 @@ from .core import (
 )
 
 def main():
-    parser = argparse.ArgumentParser(description="Gerador de Folhas de Rosto")
+    parser = argparse.ArgumentParser(description="EducForm-Bot - Gerador de Fichas Escolares")
     parser.add_argument("--modo", choices=["impressao", "backup", "ambos"], default="ambos", 
                         help="Modo de geração: impressao (1 pág), backup (todas págs) ou ambos.")
     args = parser.parse_args()
@@ -21,7 +21,7 @@ def main():
     data_dir = base_dir / "data"
     input_dir = data_dir / "input"
     output_base = data_dir / "output"
-    template_pdf = data_dir / "templates" / "FOLHA DE ROSTO 2026 - com margem.pdf"
+    template_pdf = data_dir / "templates" / "TEMPLATE_EDUCFORM_2026.pdf"
     log_dir = base_dir / "logs"
 
     setup_logging(log_dir)
