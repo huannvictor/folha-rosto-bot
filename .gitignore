@@ -6,3 +6,4 @@ data/input/
 data/output/
 *.xlsx
 *.pdf
+./nova_config_FC
